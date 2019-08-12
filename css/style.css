@@ -155,6 +155,11 @@ body {
     animation: wink 1s ease-in-out infinite alternate
 }
 
+@media all and (max-width: 560px) {
+    .sideLeft  { display: none; }
+    .sideRight  { display: none; }
+}
+
 @media only screen and (min-width:768px) {
     .preloader {
         height: 60px;
