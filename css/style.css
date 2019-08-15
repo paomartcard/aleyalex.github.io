@@ -546,8 +546,8 @@ a.active {
     display: block;
     color: #fff;
     font-size: 18px;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
+    /*-webkit-transform: translateY(-100px);*/
+    /*transform: translateY(-100px);*/
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
@@ -561,8 +561,8 @@ a.active {
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
+    /*-webkit-transform: translateY(100px);
+    transform: translateY(100px);*/
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
